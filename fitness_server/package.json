@@ -1,0 +1,23 @@
+{
+  "name": "fitness_server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "cors": "^2.8.5",
+    "expres": "^0.0.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  }
+}
